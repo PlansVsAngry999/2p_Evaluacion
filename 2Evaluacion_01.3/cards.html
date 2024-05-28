@@ -1,0 +1,44 @@
+<!--Elaborado por Yuhani Hernández Garcia       (Dolor de riñon)
+                  Ricardo Daniel Hernández Sosa (PlansVsAngry999)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cards</title>
+</head>
+<body>
+    
+    <!--Header--> 
+    <header class="headerCard">
+        <h1 class="display-2">Estudiahambres Lakshmi</h1>
+    </header>
+        <!--Nav AGREGAR-->
+        <nav class="sticky-top navbar bg-body-tertiary navbar-expand-lg" id="navSticky">
+            <form class="container-fluid">
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" id="pUser" readonly>
+                    <a class="navbar-brand" href="https://lakshmieducation.github.io/" style="margin-left: 2%;">Visita Lakshmi</a>
+              </div>
+            </form>
+          </nav>
+        <!--Card-->
+    <div class="cajaDiv" id="cajaDiv"></div>
+        <!--Modal-->
+    <div id="miModal" class="modal">
+        <div class="modal-cont">
+            <span class="cerrar">&times;</span>
+            <h2 id="modalTi"></h2>
+            <img src="" alt="imagen del modal" id="modalImg">
+            <p id="modalEdad"></p>
+            <p id="modalCalif"></p>
+            <p id="modalDes"></p>
+        </div>
+    </div>
+        <!--JAVASCRIPT-->
+    <script src="scriptCards.js"></script>
+</body>
+</html>
